@@ -29,7 +29,6 @@ echo "AI-based task management system built with FastAPI." >> README.md
 
 ---
 
-
 ---
 
 ## 🔑 Key API Endpoints
@@ -58,40 +57,36 @@ We used **Postman** to test and publish all API endpoints.
 ## 🚀 How to Run
 
 1️⃣ **Clone the repo**  
-```bash
+```
 git clone https://github.com/YOUR_USERNAME/TaskMind.git
 cd TaskMind
+
+---
 2️⃣ Create a virtual environment and install dependencies
 
-bash
-Copy
-Edit
+
 python -m venv venv
 source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 
 pip install -r requirements.txt
+
+---
+---
 3️⃣ Run the FastAPI server
 
-bash
-Copy
-Edit
 uvicorn app.main:app --reload
+
+---
+
+---
+
 4️⃣ Access the API docs
 Visit: http://127.0.0.1:8000/docs
+---
 
-🖼️ Architecture Diagram
-(Add your architecture diagram in docs/architecture-diagram.png if available)
-
-💡 Future Enhancements
-Frontend dashboard (React/JS)
-
-Priority scoring for tasks
-
-Email reminders for deadlines
-
-Admin analytics panel
+---
 
 📄 License
 This project is licensed under the MIT License.
-
+---
